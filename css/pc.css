@@ -72,7 +72,7 @@ body div{
 	top:0;
 	width:100%;
 	background-color:#2b2b2b;
-	opacity:.5;
+	opacity:.3;
 	z-index:-1;
 }
 .head-main{
@@ -136,14 +136,15 @@ li:hover{
 	float:left;
 	width:40%;
 	height:620px;
-	background-color:#2b2b2b;
+	background-color:#f2f2f2;
 	overflow:hidden;}
 .menu-left img{
 	position:absolute;
-	left:0;
 	width:100%;
-	height:100%;
 	}
+.mianju_y{ margin:0 auto; bottom:0; z-index:3;}
+.yanzhi{ display:none; }
+/*transform-origin:right;.mianju{ transform-origin:left;}.menu-left img:hover{ transform:rotateY(90deg)}*/
 .menu-right{
 	float:left;
 	width:60%;
@@ -158,7 +159,7 @@ li:hover{
 	font-size:16px;
 	color:#363636;
 	}
-.main-bg{ position:absolute; width:100%; height:336px;background-color:#d4d4d4; top:120px;}
+.main-bg{ position:absolute; width:100%; height:336px;background-color:#f2f2f2; top:120px; /*box-shadow:-2px -1px 10px #999; */}
 .own td:nth-child(1),.own td:nth-child(3){ width:15%; font-weight:600;}
 .own td:nth-child(2),.own td:nth-child(4){ width:30%; font-weight:400;}
 .menu-main{
