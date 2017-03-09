@@ -20,7 +20,7 @@ a:hover,a:active{
 	position:fixed;
 	padding-top:10px;
 	bottom:0;
-	right:10px;
+	right:60px;
 	width:60px;
 	height:30px;
 	font-size:25px;
@@ -29,6 +29,7 @@ a:hover,a:active{
 	color:#FFF;
 	cursor:pointer;
 	opacity:.8;}
+#up:hover{}
 
 img.ie6{ vertical-align:text-bottom;} /*ie6Õº∆¨∑÷¡— π”√*/
 
@@ -162,6 +163,7 @@ li:hover{
 	color:#363636;
 	}
 .main-bg{ position:absolute; width:100%; height:336px;background-color:#f2f2f2; top:120px; /*box-shadow:-2px -1px 10px #999; */}
+.shadow{box-shadow:-2px -1px 10px #999;}
 .own td:nth-child(1),.own td:nth-child(3){ width:15%; font-weight:600;}
 .own td:nth-child(2),.own td:nth-child(4){ width:30%; font-weight:400;}
 .menu-main{
@@ -199,6 +201,10 @@ li:hover{
 .skill-table td{
 	width:33%;}	
 .skill-table div{ margin-bottom:10px;}	
+.skill-table p{
+	margin-top:0;
+	color:#999;
+	font-size:12px;}
 .skill-cir{
 	margin:0 auto;
 	margin-bottom:20px;
