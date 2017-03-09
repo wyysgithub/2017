@@ -50,9 +50,11 @@ p{
 	margin-top:20px;
 	font-size:15px;}	
 	
-	
+
 body div{
 	width:100%;}
+	
+/*首页展示样式*/
 #header{
 	position:relative;
 	text-align:center;
@@ -103,7 +105,7 @@ body div{
 	
 	
 	
-	
+/*导航栏样式*/
 #menu{
 	height:760px;}
 .menu{
@@ -172,7 +174,7 @@ li:hover{
 	color:#666;}
 	
 	
-	
+/*技能面板样式*/
 #skill{
 	height:990px;}
 .skill-up{
@@ -195,7 +197,8 @@ li:hover{
 	font-size:16px;}
 
 .skill-table td{
-	width:33%;}		
+	width:33%;}	
+.skill-table div{ margin-bottom:10px;}	
 .skill-cir{
 	margin:0 auto;
 	margin-bottom:20px;
